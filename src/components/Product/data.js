@@ -48,3 +48,46 @@ export const productData = [
     button: "Add to Cart",
   },
 ];
+
+export const productDataTwo = [
+  {
+    img: product1,
+    alt: "Pizza",
+    name: "Supreme Pizzahaha",
+    desc: "Mariana zaza haha",
+    price: "$19.99",
+    button: "Add to Cart",
+  },
+  {
+    img: product2,
+    alt: "Pizza",
+    name: "Supreme Pizza",
+    desc: "Mariana zaza haha",
+    price: "$19.99",
+    button: "Add to Cart",
+  },
+  {
+    img: product3,
+    alt: "Pizza",
+    name: "Supreme Pizza",
+    desc: "Mariana zaza haha",
+    price: "$19.99",
+    button: "Add to Cart",
+  },
+  {
+    img: product4,
+    alt: "Pizza",
+    name: "Supreme Pizza",
+    desc: "Mariana zaza haha",
+    price: "$19.99",
+    button: "Add to Cart",
+  },
+  {
+    img: product5,
+    alt: "Pizza",
+    name: "Supreme Pizza",
+    desc: "Mariana zaza haha",
+    price: "$19.99",
+    button: "Add to Cart",
+  },
+];

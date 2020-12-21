@@ -12,11 +12,10 @@ import ImgBg from '../../images/homeStart.png';
 
 export const HeroContainer = styled.div`
   background: 
-/*   
-  linear-gradient(
+  /* linear-gradient(
     to right,
-    rgba(0, 0, 0, 0, 7),
-    rgba(0, 0, 0, 0, 7)), */
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.1)),  */
     url(${ImgBg}) ;
     height:100vh;
     background-position:center;
@@ -52,7 +51,7 @@ font-weight: bold;
 
 `
 export const HeroH1 = styled.h1`
-font-size:clamp(2.5rem, 20vw, 7rem);
+font-size:clamp(2.5rem, 20vw, 6.5rem);
 margin-bottom:1rem;
 font-family: 'Ambarella';
 box-shadow:2px 5px 7px #e9ba23;
