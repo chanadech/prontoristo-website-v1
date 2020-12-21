@@ -23,9 +23,9 @@ const toggle = () => {
       <Sidebar isOpen ={isOpen} toggle = {toggle}/>
       <HeroContent>
         <HeroItems>
-          <HeroH1> Greatest Restaurant</HeroH1>
-          <HeroP>Ready for Booking?</HeroP>
-          <HeroBtn> Click Here</HeroBtn>
+          <HeroH1> pronto risto</HeroH1>
+          <HeroP>SPECIAL MEAL WITH A SPECIAL PERSON</HeroP>
+          <HeroBtn> BOOK NOW</HeroBtn>
         </HeroItems>
       </HeroContent>
     </HeroContainer>

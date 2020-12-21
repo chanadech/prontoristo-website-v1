@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import FeaturePic from "../../images/rooftop_restaurant.png";
+import FeaturePic from "../../images/bg_deal2.png";
 
 export const FeatureContainer = styled.div`
-  background: linear-gradient(
+  background: 
+  linear-gradient(
       to right,
-      rgba(0, 0, 0, 0, 7),
-      rgba(0, 0, 0, 0, 1)
-    ),
-    url(${FeaturePic});
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.1)
+    ), url(${FeaturePic});
   height: 100vh;
   max-height: 500px;
   background-position: center;
@@ -16,7 +16,7 @@ export const FeatureContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #000;
+  color: #fff;
   text-align: center;
   padding: 0 1rem;
 
