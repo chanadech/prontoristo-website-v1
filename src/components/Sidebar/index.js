@@ -16,6 +16,9 @@ const Sidebar = ({isOpen, toggle}) => {
       <SidebarMenu>
         <SidebarLink to="/">Register</SidebarLink>
         <SidebarLink to="/">Login</SidebarLink>
+        <SidebarLink to="/">Seaech</SidebarLink>
+
+        
       </SidebarMenu>
       <SideBtnWrap>
           <SidebarRoute to = "/" >Book Now</SidebarRoute>
