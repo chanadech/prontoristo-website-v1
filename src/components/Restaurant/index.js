@@ -4,7 +4,7 @@ import {RestaurantContainer} from "./RestaurantElements";
 const Restaurant = () => {
   return (
     <RestaurantContainer>
-      <h1>Google Map</h1>
+      <h1>Restaurant Name</h1>
         
     </RestaurantContainer>
   );
