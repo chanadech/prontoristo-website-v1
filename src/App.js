@@ -9,6 +9,10 @@ import { productData, productDataTwo } from "./components/Product/data";
 import Feature from "./components/Features";
 import Footer from "./components/Footer";
 import Promotion from "./components/Promotion"
+import Restaurant from "./components/Restaurant";
+import Description from "./components/Description";
+import Packages from "./components/Packages";
+import GoogleMaps from "./components/GoogleMaps"
 function App() {
   return (
     //create react router
@@ -22,6 +26,15 @@ function App() {
       <Products heading="RECOMMENDATIONS FOR YOU" data={productDataTwo} />
       <Promotion/> 
       <Footer/>
+      
+      {/* app for restaurant page 
+       <GlobalStyle />
+
+      <Restaurant />
+      <Description />
+      <Packages />
+      <GoogleMaps/> 
+      <Footer/> */}
     </Router>
   );
 }
