@@ -65,6 +65,11 @@ letter-spacing:3.5px;
 export const HeroP = styled.p`
 font-size:clamp(0.5rem, 10vw, 1.7rem);
 margin-bottom:2rem;
+margin-left: 17%;
+margin-top : 3%;
+margin-bottom: 6%;
+
+display:flex;
 `
 
 export const HeroBtn = styled.button`
@@ -75,7 +80,11 @@ background: #FF9439;
 color: #fff;
 border-radius:0.8rem;
 transition : 0.2s ease-out;
+position:relative;
 font-family: 'audrey';
+left:30%;
+display:flex;
+
 
 font-weight: bold;
 
