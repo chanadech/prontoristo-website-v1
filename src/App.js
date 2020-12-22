@@ -14,11 +14,13 @@ import { Switch, Route } from "react-router-dom";
 // import About from "./About"
 import Home from "./components/Hero/index";
 import HomePage from "./Pages/HomePage/Home";
+import SearchBarPage from './components/SearchBar/index';
 function App() {
   return (
     <Router>
       <switch>
         <Route path="/" exact component={HomePage} />
+        <Route path="/result" exact component={SearchBarPage}/>
       </switch>
       <Footer />
     </Router>

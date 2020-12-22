@@ -25,6 +25,9 @@ margin-bottom:1rem;
 `;
 
 export const ProductImg  = styled.img`
+display:flex;
+align-items:center;
+justify-content:center;
 height:300px;
 min-width:300px;
 max-width: 100%;
