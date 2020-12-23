@@ -14,12 +14,13 @@ background-position: center;
 background-size: cover;
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: left;
 color: #ffffff;
-text-align: center;
+text-align: left;
 padding: 0 1rem;
 
   h1 {
+    margin-top: 1rem;
     font-size: clamp(1rem, 3vw, 2rem);
     color: #000000;
   }
@@ -30,17 +31,13 @@ padding: 0 1rem;
   }
 `;
 export const PackagesButton = styled.button`
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 0.5rem 2.5rem;
-  border: none;
-  background: #ffc500;
+  float:center;
+  border: 2px solid black;
+  border-radius: 3px;
   color: #000;
   transition: 0.2s ease-out;
-
-  &:hover {
-    color: #fff;
-    background: #e31837;
-    transition: 0.2s ease-out;
-    cursor: pointer;
-  }
+  margin-top: 1rem;
+  
 `;

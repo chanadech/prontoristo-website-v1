@@ -4,9 +4,10 @@ export const BookingContainer = styled.div`
   float:right;
   border: 2px solid black;
   border-radius: 3px;
-  width:40vw;
+  width:30vw;
   height: 300vh;
-  max-height: 400px;
+  max-height: 500px;
+  margin: 5rem;
   margin-bottom:1rem;
   margin-top:2rem;
   background-position: center;
@@ -21,7 +22,7 @@ export const BookingContainer = styled.div`
   h1 {
     margin-top: 1rem;
     margin: 1rem;
-    font-size: clamp(1.1rem, 2vw, 1rem);
+    font-size: clamp(1.5rem, 2vw, 1rem);
     color: #000000;
   }
   p {

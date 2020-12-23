@@ -5,10 +5,8 @@ const Packages = () => {
   return (
     <PackagesContainer>
       <h1>Packages</h1>
-      <p>Package A: Restaurant Name, Detail</p>
-      <PackagesButton> package a </PackagesButton>
-      <p>Package B: Restaurant Name, Detail</p>
-      <PackagesButton> package b</PackagesButton>
+      <PackagesButton>Promotion Set A: Meat Lover Set, $15.99</PackagesButton>
+      <PackagesButton>Promotion Set B: Veggie Set, $9.99</PackagesButton>
     </PackagesContainer>
   );
 };

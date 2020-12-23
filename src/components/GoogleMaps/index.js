@@ -5,7 +5,6 @@ const GoogleMaps = () => {
   return (
     <FeatureContainer>
       <h1>Google Map</h1>
-      
     </FeatureContainer>
   );
 };
