@@ -1,12 +1,9 @@
 import styled from "styled-components";
 
 export const PackagesContainer = styled.div`
-background: 
-linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.3)
-  );
+
+border: 2px solid black;
+border-radius: 3px;
 width:40vw;
 height: 100vh;
 max-height: 200px;

@@ -1,22 +1,22 @@
 import styled from "styled-components";
 
-export const DescriptionContainer = styled.div`
-  float:left;
+export const BookingContainer = styled.div`
+  float:right;
   border: 2px solid black;
   border-radius: 3px;
-  width:50vw;
+  width:40vw;
   height: 300vh;
   max-height: 400px;
-  margin: 0 4rem;
   margin-bottom:1rem;
   margin-top:2rem;
   background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
+  
 
   h1 {
     margin-top: 1rem;
