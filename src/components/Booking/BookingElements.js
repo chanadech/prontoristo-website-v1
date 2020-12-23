@@ -26,9 +26,24 @@ export const BookingContainer = styled.div`
     color: #000000;
   }
   p {
-    margin-bottom: 1rem;
-    margin: 0 4rem;
-    font-size: clamp(0.5rem, 1.5vw, 1rem);
+    font-size: clamp(1rem, 1.5vw, 1rem);
+    
     color: #000000;
+  }
+`;
+
+export const BookingButton = styled.button`
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  padding: 0.6rem 3rem;
+  border: none;
+  background: #ffc500;
+  color: #000;
+  transition: 0.2s ease-out;
+  &:hover {
+    color: #fff;
+    background: #e31837;
+    transition: 0.2s ease-out;
+    cursor: pointer;
   }
 `;
