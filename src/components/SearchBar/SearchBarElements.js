@@ -16,7 +16,8 @@ export const SearchBarContainer = styled.div`
     to right,
     rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.1)),  */
-    url(${ImgBg}) ;
+    /* url(${ImgBg}) ; */
+    yellow;
     height:100vh;
     background-position:center;
     background-size:cover;
@@ -40,16 +41,15 @@ height:100vh;
 max-height:100%;
 padding:0 2 rem;
 width:1000px;
-color: #fff;
+color: #000;
 text-transform:uppercase;
 line-height:1;
 font-weight: bold;
 
 @media screen and (max-width: 650px){
   width:100%;
-}
+}`
 
-`
 export const SearchBarH1 = styled.h1`
 font-size:clamp(2rem, 20vw, 6.5rem);
 margin-bottom:1rem;

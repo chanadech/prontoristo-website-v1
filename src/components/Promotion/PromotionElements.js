@@ -105,4 +105,5 @@ export const ImagePromotion = styled.img`
   justify-content: center;
   align-items: center;
   
+  
 `
