@@ -89,7 +89,7 @@ render(){
     return (
         <div className = "container">
         {/* Heading */}
-        <h2 className="heading"> Live Search : React App</h2>
+        <h2 className="heading">  Restaurant Search</h2>
         {/* Search Input */}
         <label className="search-label" htmlFor = "search-input">
             <input
@@ -97,7 +97,7 @@ render(){
             value = {query}
             id = "search-input"
             name = "query"
-            placeholder ="Search..."
+            placeholder ="Search your restaurant.."
             onChange= {this.handleOnInputChange}
             />
             <i class="fa fa-search" aria-hidden="true"></i>

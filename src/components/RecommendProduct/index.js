@@ -11,7 +11,7 @@ import {
   ProductDesc,
   ProductPrice,
   ProductButton,
-} from "./ProductElements";
+} from "./RecommendProductElement";
 import Carousel from "react-elastic-carousel";
 
 const breakPoints = [
@@ -21,7 +21,7 @@ const breakPoints = [
   { width: 1200, itemsToShow: 4 },
 ];
 
-const Products = ({ heading, data }) => {
+const ProductsRecommend = ({ heading, data }) => {
   return (
     <ProductContainer>
       <ProductHeading>{heading}</ProductHeading>
@@ -36,7 +36,7 @@ const Products = ({ heading, data }) => {
                 <ProductInfo>
                   <ProductTitle>{product.name}</ProductTitle>
                   <ProductDesc>{product.desc}</ProductDesc>
-                  {/* <ProductPrice>{product.price}</ProductPrice> */}
+                  <ProductPrice>{product.price}</ProductPrice>
                   <Link to="/2"><ProductButton>{product.button}</ProductButton></Link>
                 </ProductInfo>
               </ProductCard>
@@ -49,4 +49,4 @@ const Products = ({ heading, data }) => {
   );
 };
 
-export default Products;
+export default ProductsRecommend ;

@@ -6,6 +6,7 @@ import Promotion from "../../components/Promotion";
 import { GlobalStyle } from "../../globalStyles";
 import { productData, productDataTwo } from "../../components/Product/data";
 import ScrollToTop from "./ScrollToTop";
+import ProductsRecommend from "../../components/RecommendProduct"
 function Home() {
   return (
     <ScrollToTop>
@@ -14,7 +15,7 @@ function Home() {
       <Hero />
       <Products heading="CUISINES" data={productData} />
       <Feature />
-      <Products heading="RECOMMENDATIONS FOR YOU" data={productDataTwo} />
+      <ProductsRecommend heading="RECOMMENDATIONS FOR YOU" data={productDataTwo} />
       <Promotion />
     </div>
    </ScrollToTop>
