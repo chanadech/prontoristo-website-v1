@@ -22,12 +22,12 @@ export const BookingContainer = styled.div`
   h1 {
     margin-top: 1rem;
     margin: 1rem;
-    font-size: clamp(1.5rem, 2vw, 1rem);
+    font-size: clamp(2rem, 2vw, 1rem);
     color: #000000;
   }
   p {
-    font-size: clamp(1rem, 1.5vw, 1rem);
-    
+    margin-top: 0.5rem;
+    font-size: clamp(1.5rem, 1.5vw, 1rem);
     color: #000000;
   }
 `;
