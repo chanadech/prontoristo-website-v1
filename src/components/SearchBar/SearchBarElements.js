@@ -150,7 +150,7 @@ font-weight: bold;
 export const SearchBarH1 = styled.h1`
 font-size:clamp(2rem, 20vw, 6.5rem);
 margin-bottom:1rem;
-font-family: 'Aldo';
+font-family: 'aldo', sans-serif;
 box-shadow:2px 5px 7px #e9ba23;
 letter-spacing:3.5px;
 
@@ -169,7 +169,7 @@ background: #FF9439;
 color: #fff;
 border-radius:0.8rem;
 transition : 0.2s ease-out;
-font-family: 'audrey';
+font-family: 'aldo', sans-serif;
 font-weight: bold;
 &:hover {
   background: #ffc500;
