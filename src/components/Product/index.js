@@ -17,8 +17,8 @@ import Carousel from "react-elastic-carousel";
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
+  { width: 768, itemsToShow: 4 },
+  { width: 1200, itemsToShow: 5 },
 ];
 
 const Products = ({ heading, data }) => {
@@ -29,17 +29,18 @@ const Products = ({ heading, data }) => {
       <Carousel breakPoints={breakPoints}>
         {
         data.map((product, index) => (
-           
-            
+
+          <Link style={{textDecoration:'none', color:'white', fontFamily:'Audrey' }} to="/2">
               <ProductCard key={index}>
                 <ProductImg img="20%" src={product.img} alt={product.alt} />
                 <ProductInfo>
                   <ProductTitle>{product.name}</ProductTitle>
-                  <ProductDesc>{product.desc}</ProductDesc>
+                  {/* <ProductDesc>{product.desc}</ProductDesc> */}
                   {/* <ProductPrice>{product.price}</ProductPrice> */}
-                  <Link to="/2"><ProductButton>{product.button}</ProductButton></Link>
+                  {/* <Link to="/2"><ProductButton>{product.button}</ProductButton></Link> */}
                 </ProductInfo>
               </ProductCard>
+              </Link> 
             
           
         ))}

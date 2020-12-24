@@ -72,7 +72,7 @@ export const productDataTwo = [
     name: "Supreme Pizza",
     desc: "Mariana zaza haha",
     price: "$19.99",
-    button: "Add to Cart",
+    button: "Book now",
   },
   {
     img: product4,
@@ -80,7 +80,7 @@ export const productDataTwo = [
     name: "Supreme Pizza",
     desc: "Mariana zaza haha",
     price: "$19.99",
-    button: "Add to Cart",
+    button: "Book now",
   },
   {
     img: product5,
@@ -88,6 +88,6 @@ export const productDataTwo = [
     name: "Supreme Pizza",
     desc: "Mariana zaza haha",
     price: "$19.99",
-    button: "Add to Cart",
+    button: "Book now",
   },
 ];

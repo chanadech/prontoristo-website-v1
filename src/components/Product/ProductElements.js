@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 export const ProductContainer  = styled.div`
 width:100vw;
-min-height:100vh;
-padding: 5rem calc((100vw - 1300px)/2);
-background: #ffffff;
+padding: 3rem 1rem;
+background-color:#ffffff;
+font-family: 'aldo', sans-serif;
+  -webkit-font-smoothing: antialiased;
 
 
 `;
@@ -16,12 +17,33 @@ margin:0 auto;
 
 `;
 export const ProductCard = styled.div`
-margin: 0 2rem;
+/* margin: 0 2rem;
 line-height:2;
 width:300px;
-background-color:#707070;
+background-color:#2B2B2B;
 margin-top:2rem;
-margin-bottom:1rem;
+margin-bottom:1rem; */
+background-color:#575151;
+height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #0000000;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+
+  
+}
 `;
 
 export const ProductImg  = styled.img`
@@ -31,7 +53,9 @@ justify-content:center;
 height:300px;
 min-width:300px;
 max-width: 100%;
-box-shadow: 8px 8px 5px  #FF9439;
+box-shadow: 8px 8px 5px  #575151;
+
+
 `;
 
 export const ProductHeading = styled.h1`
@@ -40,9 +64,12 @@ text-align:center;
 margin-bottom:5rem;
 `;
 export const ProductTitle = styled.h2`
-font-weight: 400;
+text-transform:uppercase;
+font-weight: 700;
 font-size: 1.5rem;
-color: #ffffff
+color: ##000000
+/* font-family: 'aldo', sans-serif; */
+
 
 `;
 
@@ -53,7 +80,7 @@ justify-content:center;
 align-items:center;
 padding:2rem;
 text-align:center;
-color: #ffffff
+color: ##000
 
 `;
 export const ProductDesc = styled.p`
@@ -70,7 +97,7 @@ font-size:1rem;
 padding:1rem 4rem;
 border: none;
 background: #FF9439;
-x:#fff;
+/* x:#fff; */
 transition:0.2s ease-out;
 
 &::hover{
