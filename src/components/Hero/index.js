@@ -1,4 +1,5 @@
 import React , {useState} from "react";
+import {Link} from "react-router-dom";
 import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
 import {
@@ -25,7 +26,7 @@ const toggle = () => {
         <HeroItems>
           <HeroH1> pronto risto</HeroH1>
           <HeroP>SPECIAL MEAL WITH A SPECIAL PERSON</HeroP>
-          <HeroBtn> BOOK NOW</HeroBtn>
+          <Link to="/2"><HeroBtn> BOOK NOW</HeroBtn></Link>
         </HeroItems>
       </HeroContent>
     </HeroContainer>
