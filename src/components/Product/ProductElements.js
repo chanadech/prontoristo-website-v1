@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ProductContainer  = styled.div`
 width:100vw;
 padding: 3rem 1rem;
-background-color:#ffffff;
+background-color:#f5f5f5;
 font-family: 'aldo', sans-serif;
   -webkit-font-smoothing: antialiased;
 

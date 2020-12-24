@@ -53,7 +53,7 @@ export const productDataTwo = [
   {
     img: product1,
     alt: "Pizza",
-    name: "Supreme Pizzahaha",
+    name: "Restaurant A",
     desc: "Mariana zaza haha",
     price: "$19.99",
     button: "Add to Cart",
@@ -61,7 +61,7 @@ export const productDataTwo = [
   {
     img: product2,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Restaurant B",
     desc: "Mariana zaza haha",
     price: "$19.99",
     button: "Add to Cart",
@@ -69,7 +69,7 @@ export const productDataTwo = [
   {
     img: product3,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Restaurant C",
     desc: "Mariana zaza haha",
     price: "$19.99",
     button: "Book now",
@@ -77,7 +77,7 @@ export const productDataTwo = [
   {
     img: product4,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Restaurant D",
     desc: "Mariana zaza haha",
     price: "$19.99",
     button: "Book now",
@@ -85,7 +85,7 @@ export const productDataTwo = [
   {
     img: product5,
     alt: "Pizza",
-    name: "Supreme Pizza",
+    name: "Restaurant E",
     desc: "Mariana zaza haha",
     price: "$19.99",
     button: "Book now",
