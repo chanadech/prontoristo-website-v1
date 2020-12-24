@@ -14,7 +14,6 @@ background-position: center;
 background-size: cover;
 display: flex;
 flex-direction: column;
-<<<<<<< HEAD
 align-items: left;
 color: #ffffff;
 text-align: left;
@@ -22,14 +21,6 @@ padding: 0 1rem;
 
   h1 {
     margin-top: 1rem;
-=======
-align-items: center;
-color: #ffffff;
-text-align: center;
-padding: 0 1rem;
-
-  h1 {
->>>>>>> 69545764686b55dd3ba837915565c92d833e74af
     font-size: clamp(1rem, 3vw, 2rem);
     color: #000000;
   }
@@ -40,7 +31,6 @@ padding: 0 1rem;
   }
 `;
 export const PackagesButton = styled.button`
-<<<<<<< HEAD
   font-size: 1.3rem;
   padding: 0.5rem 2.5rem;
   float:center;
@@ -50,19 +40,4 @@ export const PackagesButton = styled.button`
   transition: 0.2s ease-out;
   margin-top: 1rem;
   
-=======
-  font-size: 1.2rem;
-  padding: 0.5rem 2.5rem;
-  border: none;
-  background: #ffc500;
-  color: #000;
-  transition: 0.2s ease-out;
-
-  &:hover {
-    color: #fff;
-    background: #e31837;
-    transition: 0.2s ease-out;
-    cursor: pointer;
-  }
->>>>>>> 69545764686b55dd3ba837915565c92d833e74af
 `;
