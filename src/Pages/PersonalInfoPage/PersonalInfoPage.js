@@ -1,24 +1,22 @@
 import React from "react";
 import { GlobalStyle } from "../../globalStyles";
-import Restaurant from "../../components/Restaurant";
-import Description from "../../components/Description";
+import InfoTop from "../../components/InfoTop";
+import GuestInfo from "../../components/GuestInfo";
 import Packages from "../../components/Packages";
-import GoogleMaps from "../../components/GoogleMaps";
 import Booking from "../../components/Booking";
 import ScrollToTop from "../ScrollToTop";
-function BookingPage() {
+function PersonalInfoPage() {
   return (
     <ScrollToTop>
     <div>
         <GlobalStyle />
-        <Restaurant />
-        <Description />
+        <InfoTop />
+        <GuestInfo />
         <Booking />
         <Packages />
-        <GoogleMaps/> 
     </div>
     </ScrollToTop>
     );
 }
 
-export default BookingPage;
+export default PersonalInfoPage;

@@ -9,7 +9,7 @@ export const BookingContainer = styled.div`
   max-height: 500px;
   margin: 5rem;
   margin-bottom:1rem;
-  margin-top:2rem;
+  margin-top:4rem;
   background-position: center;
   background-size: cover;
   display: flex;

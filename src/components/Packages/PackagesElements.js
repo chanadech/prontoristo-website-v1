@@ -7,7 +7,7 @@ border-radius: 3px;
 width:40vw;
 height: 100vh;
 max-height: 200px;
-margin: 0 9rem;
+margin: 0 8rem;
 margin-bottom:1rem;
 margin-top:2rem;
 background-position: center;

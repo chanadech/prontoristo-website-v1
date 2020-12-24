@@ -3,6 +3,7 @@ import Select from 'react-select'
 import {BookingContainer, BookingButton} from './BookingElements';
 import DatePicker from 'react-date-picker';
 import {guestoptions, childrenoptions, timeoptions} from './BookingSelect'
+import {Link} from "react-router-dom";
 
 const Booking = () => {
     const [value, onChange] = useState(new Date());
@@ -19,7 +20,7 @@ const Booking = () => {
                 value={value}/>
             <p>Time</p>
             <Select name = "TimeSelect"   width='10000px' options={timeoptions}clearable={false}/>
-            <BookingButton>Confirm Booking</BookingButton>
+            <Link to="/3"><BookingButton>Continue</BookingButton></Link>
         </BookingContainer>
   );
 };

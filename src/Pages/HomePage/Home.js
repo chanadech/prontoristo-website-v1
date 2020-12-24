@@ -5,7 +5,7 @@ import Products from "../../components/Product";
 import Promotion from "../../components/Promotion";
 import { GlobalStyle } from "../../globalStyles";
 import { productData, productDataTwo } from "../../components/Product/data";
-import ScrollToTop from "./ScrollToTop";
+import ScrollToTop from "../ScrollToTop";
 import ProductsRecommend from "../../components/RecommendProduct"
 function Home() {
   return (
