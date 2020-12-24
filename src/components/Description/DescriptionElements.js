@@ -6,10 +6,10 @@ export const DescriptionContainer = styled.div`
   border-radius: 3px;
   width:50vw;
   height: 300vh;
-  max-height: 400px;
+  max-height: 500px;
   margin: 0 4rem;
   margin-bottom:1rem;
-  margin-top:2rem;
+  margin-top:4rem;
   background-position: center;
   background-size: cover;
   display: flex;
