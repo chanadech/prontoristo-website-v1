@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import {FeatureContainer2,FeatureButton, ImagePromotion} from './PromotionElements';
 
 const Promotion = () => {
@@ -12,7 +13,7 @@ const Promotion = () => {
         <br/> OCTOBER 2020
       </div>
       <div style={{color:"#E65C5C",marginLeft:'5%'}} ><center>(Only at jointed - promotional restaurant)</center></div>
-      <FeatureButton> Book Now</FeatureButton>
+      <Link to="/2"><FeatureButton> Book Now</FeatureButton></Link>
       </p>
     </FeatureContainer2>
   );

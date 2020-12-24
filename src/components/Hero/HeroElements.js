@@ -82,9 +82,8 @@ border-radius:0.8rem;
 transition : 0.2s ease-out;
 position:relative;
 font-family: 'audrey';
-left:30%;
+left:100%;
 display:flex;
-
 
 font-weight: bold;
 
