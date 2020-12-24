@@ -1,91 +1,116 @@
-import React, { useEffect, useState } from "react";
-import Navbar from "../Navbar";
-import Sidebar from "../Sidebar";
-import { useCombobox } from "downshift";
-import { Input } from "antd";
-import {
-  SearchBarContainer,
-  SearchBarContent,
-  SearchBarItems,
-  SearchBarBtn,
-} from "./SearchBarElements";
-
-const SearchBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const [inputItems, setInputItems] = useState([]);
-  const [users, setUsers] = useState([]);
-  const [singleUser, setSingleUser] = useState('');
-
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/users")
-    .then((response) => response.json())
-    .then((data) => setUsers(data))
-  }, []);
 
 
+import React from 'react';
+import '../../components/SearchBar/search.css'
+import axios from 'axios';
+import Loader from '../../images/loader.gif';
+class SearchBar extends React.Component{
+    constructor(props){
+        super(props);
+    
+    this.state = {
+        query: '',
+        results: {},
+        loading:false,
+        message:''
+    };
+    this.cancel = '';
+}
+fetchSearchResults = (updatedPageNo,query) => {
+  const pageNumber = updatedPageNo ? `&page=4${updatedPageNo}` : '';
+  const searchUrl = `https://pixabay.com/api/?key=12413278-79b713c7e196c7a3defb5330e&q=${query}`
 
-  const {
-    isSearchOpen,
-    getMenuProps,
-    getInputProps,
-    getComboboxProps,
-    highlightedIndex,
-    getItemProps,
-  } = useCombobox({
-    items: inputItems,
-    onInputValueChanges: ({ inputValue }) => {
-      setInputItems(
-        users.filter((item) =>
-          item.name.toLowerCase().startsWith(inputValue.toLowerCase()),
-          )
-      )
-    },
-  });
-  console.log(users);
+  if(this.cancel){
+    this.cancel.cancel();
+  }
+  this.cancel = axios.CancelToken.source();
+  axios.get (searchUrl,{
+    cancelToken : this.cancel.token
+  }).then(res => {
+    const resultNotFoundMessage = ! res.data.hits.length 
+    ? 'There are no more search result. Please try a new search'
+    :'';
+    this.setState({
+      results:res.data.hits,
+      messages: resultNotFoundMessage,
+      loading:false
 
-  
 
-  
-  return (
-    <SearchBarContainer>
-      <SearchBarContent>
-        <SearchBarItems>
-          <div>Search Box</div>
-          <h2> Current User : {singleUser} </h2>
-          <div {...getComboboxProps()}>
-            <Input
-              {...getInputProps()}
-                placeholder="Search"
-                enterButton = "Search"
-                size ="large"
-            />
-          </div>
-
-          <ul {...getMenuProps()}>
-            {isSearchOpen && inputItems.map((item,index) => (
-                <span
-                  key={item.id}
-                  {...getItemProps({item,index})}
-                  onClick={() => setSingleUser(item.name)} >
-                  <li style={highlightedIndex === index ? { background: "#ede" } : {}} > 
-                  <h4>{item.name}</h4> 
-                  </li>
-                  <h1>{item.name}</h1>
-                </span>
-              ))}
-          </ul>
-
-          
-          <h4>Hello</h4>
-
-        </SearchBarItems>
-      </SearchBarContent>
-    </SearchBarContainer>
-  );
+    })
+    
+  } )
+  .catch(error =>{
+    if (axios.isCancel(error) || error) {
+      this.setState({
+        loading:false,
+        message:'Failed to fetch the data, Please Check the network'
+      })
+    }
+  })
 };
 
-export default SearchBar;
+handleOnInputChange = ( event ) => {
+  const query = event.target.value;
+  if ( ! query ) {
+    this.setState( { query, results: {}, message: '', totalPages: 0, totalResults: 0 } );
+  } else {
+    this.setState( { query, loading: true, message: '' }, () => {
+      this.fetchSearchResults( 1, query );
+    } );
+  }
+};
+renderSearchResults = () => {
+  const { results } = this.state;
+
+  if ( Object.keys( results ).length && results.length ) {
+    return (
+      <div className="results-container">
+        { results.map( result => {
+          return (
+            <a key={ result.id } href={ result.previewURL } className="result-item">
+              <h6 className="image-username">{result.user}</h6>
+              <div className="image-wrapper">
+                <img className="image" src={ result.previewURL } alt={`${result.username} image`}/>
+              </div>
+            </a>
+          )
+        } ) }
+
+      </div>
+    )
+  }
+};
+
+
+render(){
+    const {query,loading,message} = this.state;
+    // const query = this.state.query;
+    console.log(this.state)
+    return (
+        <div className = "container">
+        {/* Heading */}
+        <h2 className="heading"> Live Search : React App</h2>
+        {/* Search Input */}
+        <label className="search-label" htmlFor = "search-input">
+            <input
+            type = "text"
+            value = {query}
+            id = "search-input"
+            name = "query"
+            placeholder ="Search..."
+            onChange= {this.handleOnInputChange}
+            />
+            <i class="fa fa-search" aria-hidden="true"></i>
+
+        </label> 
+        {/* Error Message */}
+        {message && <p className="message">{message}</p>}
+
+
+        {/* loader */}
+        <img src = {Loader} className ={`search-loading ${loading ? 'show' : 'hide'}`} alt = "loader"/>
+        {/* Result    */}
+        {this.renderSearchResults()}
+        </div>
+    )}}
+    export default SearchBar;
