@@ -3,13 +3,10 @@ import { StyleSheet } from 'react-native'
 
 export const GuestInfoContainer = styled.div`
   float:left;
-  border: 2px solid black;
-  border-radius: 3px;
   width:40vw;
   height: 300vh;
-  max-height: 500px;
-  margin: 0 8rem;
-  margin-bottom:0.5rem;
+  max-height: 550px;
+  margin: 0 8rem 2rem;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -19,11 +16,11 @@ export const GuestInfoContainer = styled.div`
   text-align: center;
 
   h1 {
-    margin-top: 1rem;
-    margin: 1rem;
-    alignItems:'center';
-    font-size: clamp(1.5rem, 2vw, 1rem);
-    color: #000000;
+    align-items: center;
+    text-align: center;
+    ont-size: clamp(0.7rem, 1.5vw, 1rem);
+    color: #696969;
+    margin-bottom: 0.5rem;
   }
   p {
     margin-bottom: 1rem;
@@ -33,6 +30,26 @@ export const GuestInfoContainer = styled.div`
     color: #000000;
   }
 `
+
+export const GuestButton = styled.button`
+font-size:1rem;
+padding:1rem 4rem;
+border: none;
+background: #FF9439;
+color: #fff;
+border-radius:0.8rem;
+transition : 0.2s ease-out;
+position:relative;
+font-family: 'aldo', sans-serif;
+display:flex;
+font-weight: bold;
+&:hover {
+  background: #ffc500;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  color: #000;
+}
+`;
 
 export const styles = StyleSheet.create({
   container: {

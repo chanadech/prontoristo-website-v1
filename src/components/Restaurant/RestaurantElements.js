@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Img from '../../images/Image_18.png';
 
-export const RestaurantContainer = styled.div`
+export const PicContainer = styled.div`
 background: 
 linear-gradient(
     to right,
@@ -25,4 +25,10 @@ h1 {
   color: #FFFFFF;
   text-align: center;
 }
+`;
+
+export const RestaurantContainer = styled.div`
+
+  height: 100vh;
+  max-height: 550px;
 `;
