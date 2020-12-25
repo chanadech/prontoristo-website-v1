@@ -10,6 +10,8 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import PersonalInfoPage from "./Pages/PersonalInfoPage/PersonalInfoPage"
 import BookingPage from "./Pages/BookingPage/BookingPage"
+import SearchBar from "./components/SearchBarData";
+import SearchBarTest from "./components/SearchBarData";
 function App() {
   const [isOpen, setIsOpen] = useState(false)
   const toggle = () => {
@@ -25,6 +27,7 @@ function App() {
         <Route path="/result" exact component={SearchBarPage}/>
         <Route path="/2" exact component={BookingPage}/>
         <Route path="/3" exact component={PersonalInfoPage}/>
+        <Route path = "/test" exact component = {SearchBarTest}/>
       </switch>
       <Footer/>
     </Router>

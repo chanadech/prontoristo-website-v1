@@ -21,6 +21,7 @@ export const HeroContainer = styled.div`
     background-position:center;
     background-size:cover;
     position:relative;
+    display:flex;
   ;
 `;
 

@@ -18,7 +18,9 @@ const Sidebar = ({ isOpen, toggle }) => {
         <div>Menu</div>
         <SidebarLink to="/">Register</SidebarLink>
         <SidebarLink to="/">Login</SidebarLink>
-        <SidebarLink to="/result">Search Restaurant</SidebarLink>
+        <SidebarLink to="/result">Search Restaurant ver API</SidebarLink>
+        <SidebarLink to="/test">Search Restaurant version mock + layout</SidebarLink>
+
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute to="/">Book Now</SidebarRoute>
