@@ -7,7 +7,7 @@ import product5 from "../../images/rooftop_restaurant.png";
 
 export const productDataTwo = [
     { 
-      id:1
+      id:1,
       img: product1,
       alt: "Searchbar",
       name: "Supreme Pizzahaha",
@@ -18,7 +18,7 @@ export const productDataTwo = [
       cuisine: "Thai Cuisine"
     },
     {
-      id:2
+      id:2,
       img: product2,
       alt: "Searchbar",
       name: "Supreme Pizza",
@@ -31,7 +31,7 @@ export const productDataTwo = [
 
     },
     {
-      id:3
+      id:3,
       img: product3,
       alt: "Searchbar",
       name: "Supreme Pizza",
@@ -43,7 +43,7 @@ export const productDataTwo = [
 
     },
     {
-      id:4
+      id:4,
       img: product4,
       alt: "Searchbar",
       name: "Supreme Pizza",
@@ -56,7 +56,7 @@ export const productDataTwo = [
 
     },
     {
-      id:5
+      id:5,
       img: product5,
       alt: "Searchbar",
       name: "Supreme Pizza",

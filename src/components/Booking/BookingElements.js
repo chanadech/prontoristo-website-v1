@@ -33,17 +33,25 @@ export const BookingContainer = styled.div`
 `;
 
 export const BookingButton = styled.button`
-  margin-top: 2rem;
-  font-size: 1.4rem;
-  padding: 0.6rem 3rem;
-  border: none;
+font-size:1.4rem;
+padding:1rem 4rem;
+margin-top:1.5rem;
+border: none;
+background: #FF9439;
+color: #fff;
+border-radius:0.8rem;
+transition : 0.2s ease-out;
+position:relative;
+font-family: 'aldo', sans-serif;
+display:flex;
+
+font-weight: bold;
+
+
+&:hover {
   background: #ffc500;
-  color: #000;
   transition: 0.2s ease-out;
-  &:hover {
-    color: #fff;
-    background: #e31837;
-    transition: 0.2s ease-out;
-    cursor: pointer;
-  }
+  cursor: pointer;
+  color: #000;
+}
 `;

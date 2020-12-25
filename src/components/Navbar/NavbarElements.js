@@ -43,6 +43,7 @@ export const NavIcon = styled.div`
 `;
 
 export const Bars = styled(FaSearch)`
+margin-top:1rem;
 font-size:2rem;
 transform:translate(-50%,-15%);
 `

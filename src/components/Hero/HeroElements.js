@@ -83,7 +83,7 @@ border-radius:0.8rem;
 transition : 0.2s ease-out;
 position:relative;
 font-family: 'aldo', sans-serif;
-left:100%;
+left:115%;
 display:flex;
 
 font-weight: bold;

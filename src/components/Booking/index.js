@@ -19,7 +19,7 @@ const Booking = () => {
                 onChange={onChange}
                 value={value}/>
             <p>Time</p>
-            <Select name = "TimeSelect"   width='10000px' options={timeoptions}clearable={false}/>
+            <Select name = "TimeSelect" options={timeoptions}clearable={false}/>
             <Link to="/3"><BookingButton>Continue</BookingButton></Link>
         </BookingContainer>
   );

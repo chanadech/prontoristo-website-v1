@@ -28,6 +28,7 @@ function App() {
         <Route path="/2" exact component={BookingPage}/>
         <Route path="/3" exact component={PersonalInfoPage}/>
         <Route path = "/test" exact component = {SearchBarTest}/>
+        
       </switch>
       <Footer/>
     </Router>
