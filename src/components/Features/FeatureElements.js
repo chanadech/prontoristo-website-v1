@@ -19,6 +19,7 @@ export const FeatureContainer = styled.div`
   color: #fff;
   text-align: center;
   padding: 0 1rem;
+  /* transition: transform .2s */
 
   h1 {
     font-size: clamp(3rem, 5vw, 5rem);
@@ -26,7 +27,7 @@ export const FeatureContainer = styled.div`
   p {
     margin-bottom: 1rem;
     font-size: clamp(1rem, 3vw, 2rem);
-  }
+  }  
 `;
 export const FeatureButton = styled.button`
   font-size: 1.4rem;

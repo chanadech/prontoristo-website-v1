@@ -12,6 +12,12 @@ import PersonalInfoPage from "./Pages/PersonalInfoPage/PersonalInfoPage"
 import BookingPage from "./Pages/BookingPage/BookingPage"
 import SearchBar from "./components/SearchBarData";
 import SearchBarTest from "./components/SearchBarData";
+import About from "./components/About"
+
+import Services from './Pages/Services/Services';
+import Products from './Pages/Products/Products';
+import { GlobalStyle } from "./globalStyles";
+
 function App() {
   const [isOpen, setIsOpen] = useState(false)
   const toggle = () => {
@@ -20,6 +26,7 @@ function App() {
   
   return (
     <Router>
+      <GlobalStyle/>
       <Navbar toggle = {toggle}/>
       <Sidebar isOpen ={isOpen} toggle = {toggle}/>
       <switch>
@@ -28,6 +35,9 @@ function App() {
         <Route path="/2" exact component={BookingPage}/>
         <Route path="/3" exact component={PersonalInfoPage}/>
         <Route path = "/test" exact component = {SearchBarTest}/>
+        <Route path = "/About" exact component = {About}/>
+        <Route path='/services' component={Services} />
+        <Route path='/products' component={Products} />
         
       </switch>
       <Footer/>

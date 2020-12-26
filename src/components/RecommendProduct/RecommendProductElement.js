@@ -6,6 +6,7 @@ export const ProductContainer = styled.div`
   background-color: #ffffff;
   font-family: "aldo", sans-serif;
   -webkit-font-smoothing: antialiased;
+  
 `;
 export const ProductWrapper = styled.div`
   display: flex;

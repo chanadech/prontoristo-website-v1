@@ -6,6 +6,7 @@ padding: 3rem 1rem;
 background-color:#f5f5f5;
 font-family: 'aldo', sans-serif;
   -webkit-font-smoothing: antialiased;
+  
 
 
 `;
@@ -42,8 +43,9 @@ height:18em;
   -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #0000000;
   box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 
+
   
-}
+
 `;
 
 export const ProductImg  = styled.img`
@@ -54,6 +56,7 @@ height:300px;
 min-width:300px;
 max-width: 100%;
 box-shadow: 8px 8px 5px  #575151;
+
 
 
 `;
@@ -69,6 +72,7 @@ font-weight: 700;
 font-size: 1.5rem;
 color: ##000000
 /* font-family: 'aldo', sans-serif; */
+
 
 
 `;
