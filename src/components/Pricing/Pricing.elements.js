@@ -29,6 +29,8 @@ export const PricingHeading = styled.h1`
   margin-bottom: 24px;
 `;
 
+
+
 export const PricingContainer = styled.div`
   display: flex;
   justify-content: center;
