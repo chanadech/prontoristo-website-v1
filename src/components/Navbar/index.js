@@ -8,7 +8,7 @@ const Navbar = ({ toggle }) => {
         <NavLink to="/">ProntoRisto</NavLink>
         <NavLink to="/"> | Restaurant</NavLink>
         <NavLink to="/services"> | About us</NavLink>
-        <NavLink to="/products"> | Contact</NavLink>
+        <NavLink to="/contact"> | Contact</NavLink>
         <NavIcon onClick={toggle}>
           <p>Menu</p>
         </NavIcon>

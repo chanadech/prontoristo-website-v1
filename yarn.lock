@@ -10144,6 +10144,11 @@ react-swipeable@^5.5.1:
   dependencies:
     prop-types "^15.6.2"
 
+react-table@^7.6.2:
+  version "7.6.2"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.6.2.tgz#b60932fa6d457c2bca0da49815cd6a8fe9451f77"
+  integrity sha512-urwNZTieb+xg/+BITUIrqdH5jZfJlw7rKVAAq25iXpBPwbQojLCEKJuGycLbVwn8fzU+Ovly3y8HHNaLNrPCvQ==
+
 react-timer-mixin@^0.13.4:
   version "0.13.4"
   resolved "https://registry.yarnpkg.com/react-timer-mixin/-/react-timer-mixin-0.13.4.tgz#75a00c3c94c13abe29b43d63b4c65a88fc8264d3"

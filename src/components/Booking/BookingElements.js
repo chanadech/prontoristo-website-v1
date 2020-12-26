@@ -21,7 +21,6 @@ export const BookingContainer = styled.div`
 
   h1 {
     margin-top: 1rem;
-    margin: 1rem;
     font-size: clamp(2rem, 2vw, 1rem);
     color: #000000;
   }
