@@ -30,7 +30,7 @@ function Pricing() {
             <PricingCard to='/'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock color="white"/>
+                  <GiCutDiamond color="white"/>
                 </PricingCardIcon>
                 <PricingCardPlan>Best Price</PricingCardPlan>
                 <PricingCardCost>For customer</PricingCardCost>
@@ -46,11 +46,11 @@ function Pricing() {
             <PricingCard to='/'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars color="white"/>
+                  <GiRock color="white"/>
                 </PricingCardIcon>
                 <PricingCardPlan>Best Deal</PricingCardPlan>
                 <PricingCardCost>For the owner </PricingCardCost>
-                <PricingCardLength>we decide to keep the best price for the customer</PricingCardLength>
+                <PricingCardLength>we have the most cost-effective deal waiting for you</PricingCardLength>
                 {/* <PricingCardFeatures>
                   <PricingCardFeature></PricingCardFeature>
                   <PricingCardFeature></PricingCardFeature>
@@ -62,9 +62,9 @@ function Pricing() {
             <PricingCard to='/'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond color="white"/>
+                  <GiCrystalBars color="white"/>
                 </PricingCardIcon>
-                <PricingCardPlan>Best Choices</PricingCardPlan>
+                <PricingCardPlan>Best Choice</PricingCardPlan>
                 <PricingCardCost>For Everyone</PricingCardCost>
                 <PricingCardLength>we decide to keep the best price for the customer</PricingCardLength>
                 {/* <PricingCardFeatures>

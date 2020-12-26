@@ -56,7 +56,7 @@ export const productDataTwo = [
     name: "Restaurant A",
     desc: "Mariana zaza haha",
     price: "$19.99",
-    button: "Add to Cart",
+    button: "Book now",
   },
   {
     img: product2,
@@ -64,7 +64,7 @@ export const productDataTwo = [
     name: "Restaurant B",
     desc: "Mariana zaza haha",
     price: "$19.99",
-    button: "Add to Cart",
+    button: "Book now",
   },
   {
     img: product3,

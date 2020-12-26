@@ -93,8 +93,10 @@ export const PricingCardCost = styled.h4`
 `;
 
 export const PricingCardLength = styled.p`
-  font-size: 14px;
-  margin-bottom: 24px;
+  font-size: 20px;
+  margin:25px;
+  /* margin-bottom: 24px; */
+  padding:3%;
 `;
 
 export const PricingCardFeatures = styled.ul`
