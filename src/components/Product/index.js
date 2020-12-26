@@ -21,7 +21,7 @@ const breakPoints = [
   { width: 1200, itemsToShow: 5 },
 ];
 
-const Products = ({ heading, data }) => {
+const Products = ({ heading, data , props}) => {
   return (
     <ProductContainer>
       <ProductHeading>{heading}</ProductHeading>
@@ -34,7 +34,8 @@ const Products = ({ heading, data }) => {
               <ProductCard key={index}>
                 <ProductImg img="20%" src={product.img} alt={product.alt} />
                 <ProductInfo>
-                  <ProductTitle>{product.name}</ProductTitle>
+                  <ProductTitle name={product.name}>{product.name}</ProductTitle>
+                  
                   {/* <ProductDesc>{product.desc}</ProductDesc> */}
                   {/* <ProductPrice>{product.price}</ProductPrice> */}
                   {/* <Link to="/2"><ProductButton>{product.button}</ProductButton></Link> */}

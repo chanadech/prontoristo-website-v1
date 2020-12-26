@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { Text, TextInput, View } from 'react-native'
-import {GuestInfoContainer, confirmButton, styles} from './GuestInfoElements'
+import {GuestInfoContainer, GuestButton, styles} from './GuestInfoElements'
 import DatePicker from 'react-date-picker';
 const GuestInfo = () => {
   const [name, setName] = useState("First"); 
@@ -27,8 +27,9 @@ const GuestInfo = () => {
         value={value}/>
       <Text>Special Requests</Text>
       <TextInput multiline numberOfLines={2} style={styles.input} placeholder="Enter your special requests here"  onChangeText={(val)=>setRequest(val)} />
+      <Text>I have read and agreed to the terms and agreements</Text>
     </View>
-    <p >I have read and agreed to the terms and agreements</p>
+    <GuestButton>Confirm Booking</GuestButton>
     </GuestInfoContainer>
   );
 };

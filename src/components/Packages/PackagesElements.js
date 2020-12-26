@@ -2,14 +2,10 @@ import styled from "styled-components";
 
 export const PackagesContainer = styled.div`
 
-border: 2px solid black;
-border-radius: 3px;
 width:40vw;
 height: 100vh;
 max-height: 200px;
-margin: 0 8rem;
-margin-bottom:1rem;
-margin-top:2rem;
+margin: 2rem 8rem 1rem;
 background-position: center;
 background-size: cover;
 display: flex;
@@ -19,25 +15,31 @@ color: #ffffff;
 text-align: left;
 padding: 0 1rem;
 
-  h1 {
-    margin-top: 1rem;
-    font-size: clamp(1rem, 3vw, 2rem);
-    color: #000000;
-  }
+h1 {
+  align-items: center;
+  text-align: center;
+  ont-size: clamp(0.7rem, 1.5vw, 1rem);
+  color: #696969;
+  margin-bottom: 0.5rem;
+}
   p {
-    margin-top: 1rem;
+    margin: 0.5rem 0 0.5rem;
     font-size: clamp(1rem, 1.5vw, 1rem);
     color: #000000;
   }
 `;
-export const PackagesButton = styled.button`
-  font-size: 1.3rem;
-  padding: 0.5rem 2.5rem;
+export const PackagesChoice = styled.div`
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
   float:center;
-  border: 2px solid black;
+  border: 2px solid;
   border-radius: 3px;
-  color: #000;
+  border-color: gray;
   transition: 0.2s ease-out;
-  margin-top: 1rem;
-  
+  color: #696969
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 `;
