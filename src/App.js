@@ -10,12 +10,11 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import PersonalInfoPage from "./Pages/PersonalInfoPage/PersonalInfoPage"
 import BookingPage from "./Pages/BookingPage/BookingPage"
-import SearchBar from "./components/SearchBarData";
 import SearchBarTest from "./components/SearchBarData";
 import About from "./components/About"
 
 import Services from './Pages/Services/Services';
-import Products from './Pages/Products/Products';
+import Contact from './Pages/Contact/Contact';
 import { GlobalStyle } from "./globalStyles";
 
 function App() {
@@ -37,7 +36,7 @@ function App() {
         <Route path = "/test" exact component = {SearchBarTest}/>
         <Route path = "/About" exact component = {About}/>
         <Route path='/services' component={Services} />
-        <Route path='/products' component={Products} />
+        <Route path='/contact' component={Contact} />
         
       </switch>
       <Footer/>
