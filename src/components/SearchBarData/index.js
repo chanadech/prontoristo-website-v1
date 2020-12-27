@@ -38,7 +38,7 @@ class SearchBarTest extends React.Component {
             </SearchBarContainer2>
         </Form>
         </div>
-        <h2 style={{marginTop:'7%'}}><center>Results</center></h2>
+        <h2 style={{marginTop:'10%'}}><center>Results</center></h2>
         {/* <SearchResultContainer2>
         <ImageSearchResult/>
             <p>

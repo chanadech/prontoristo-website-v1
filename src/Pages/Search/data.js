@@ -58,5 +58,7 @@ export const productDataTwo = [
       desc: "Mariana zaza haha",
       price: "$19.99",
       button: "Siam",
+      location: "Siam",
+      cuisine: "Rooftop"
     },
   ];

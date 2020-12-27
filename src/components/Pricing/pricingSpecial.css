@@ -6,12 +6,12 @@
   
   :root {
     --primary-color: #6CD9CE;
-    --secondary-color: #D93BA1;
-    --complimentary-color: #2E2473;
+    --secondary-color: #2b2b2b;
+    --complimentary-color: #fafafa;
   }
   
   .containerPrice {
-    margin-top: -6%;
+    margin-top: -6.3%;
     margin-bottom: 5%;
     min-height: 100vh;
     position: relative;
@@ -28,7 +28,7 @@
     font-size: 150px;
     color: var(--primary-color);
     transform: translateY(-600px);
-    animation: 1.2s slideIn ease-in-out forwards 1s;
+    animation: 1.9s slideIn ease-in-out forwards 1s;
     z-index: 10;
     opacity: 0;
     position: relative;
@@ -43,6 +43,7 @@
       bottom: -10px;
       animation: 1s underline ease-in-out forwards 2s;
       mix-blend-mode: screen;
+      
   }
   
   .overlay {
@@ -57,7 +58,7 @@
       transform: scale(.5);
       animation: .5s slideIn ease-in-out forwards, 1s skewBg ease-in-out;
   }
-  
+
   @keyframes skewBg {
     0% {
       transform: scale(.5);

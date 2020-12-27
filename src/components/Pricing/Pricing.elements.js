@@ -1,12 +1,12 @@
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 export const PricingSection = styled.div`
   padding: 100px 0 160px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #FAFAFA
+  background: #fafafa;
 `;
 
 export const PricingWrapper = styled.div`
@@ -29,8 +29,6 @@ export const PricingHeading = styled.h1`
   margin-bottom: 24px;
 `;
 
-
-
 export const PricingContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -46,7 +44,7 @@ export const PricingContainer = styled.div`
 `;
 
 export const PricingCard = styled(Link)`
-  background: #FF9439;
+  background: #ff9439;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
   height: 500px;
@@ -96,9 +94,9 @@ export const PricingCardCost = styled.h4`
 
 export const PricingCardLength = styled.p`
   font-size: 20px;
-  margin:25px;
+  margin: 25px;
   /* margin-bottom: 24px; */
-  padding:3%;
+  padding: 3%;
 `;
 
 export const PricingCardFeatures = styled.ul`
@@ -113,3 +111,41 @@ export const PricingCardFeatures = styled.ul`
 export const PricingCardFeature = styled.li`
   margin-bottom: 10px;
 `;
+
+// export const PricingHeadingContainer = styled.div`
+//   display: flex;
+//   justify-content: center;
+//   align-items: flex-start;
+//   padding: 0;
+//   margin: 0;
+//   box-sizing: border-box;
+// `;
+// export const PricingHeadingSpan = styled.span`
+//   margin: 0 15px;
+//   line-height: 0.7;
+//   text-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+//   animation: span 3s ease-in infinite alternate;
+// `;
+
+// export const span = styled.div`
+//   display: inline-flex;
+//   height: 30px;
+//   width: 27px;
+//   /* border: 2.5px solid #FF1EAD; */
+//   border: 2.35px solid black;
+//   border-radius: 14px;
+//   box-shadow: 0 0 2px rgba(0, 0, 0, 0.75), inset 0 0 2px rgba(0, 0, 0, 0.45);
+//   animation: letter 3s ease-in-out infinite alternate;
+// `;
+
+// exportconst letter = keyframes`
+// 0%, 30% {
+//   margin: 0 15px;
+// }
+// 70%, 100% {
+//   margin: 0 5px;
+// }
+// }
+// `;
+
+// const 

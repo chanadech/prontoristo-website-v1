@@ -12,8 +12,7 @@ function SearchCard(props){
 
         <div className='right-side'>
         <h1>{props.title}</h1>
-        <p>{props.cuisine}</p>
-        <p>{props.location}</p>
+        <p>{props.cuisine} | {props.location}</p>
         </div>
         
     </div>
