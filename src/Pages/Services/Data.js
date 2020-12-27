@@ -1,5 +1,5 @@
 
-import product1 from "../../images/barbeque.png";
+import product1 from "../../images/barbeque2.svg";
 
 export const homeObjOne = {
   lightBg: false,

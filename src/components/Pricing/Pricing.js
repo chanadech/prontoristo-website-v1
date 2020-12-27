@@ -33,7 +33,7 @@ function Pricing() {
           </div>{" "}
           <PricingHeading>Why Pronto Risto ?</PricingHeading>
           <PricingContainer>
-            <PricingCard to="/">
+            <PricingCard to="/services">
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCutDiamond color="white" />
@@ -51,7 +51,7 @@ function Pricing() {
                 {/* <Button primary>Choose Plan</Button> */}
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to="/">
+            <PricingCard to="/services">
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiRock color="white" />
@@ -69,7 +69,7 @@ function Pricing() {
                 <Button primary>Choose Plan</Button> */}
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to="/">
+            <PricingCard to="/services">
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCrystalBars color="white" />
@@ -77,7 +77,7 @@ function Pricing() {
                 <PricingCardPlan>Best Choice</PricingCardPlan>
                 <PricingCardCost>For Everyone</PricingCardCost>
                 <PricingCardLength>
-                  we decide to keep the best price for the customer
+                 we intend to be the best choice for you
                 </PricingCardLength>
                 {/* <PricingCardFeatures>
                   <PricingCardFeature>Unlimited Users</PricingCardFeature>
