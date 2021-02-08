@@ -82,9 +82,9 @@ export const SearchBarContainer = styled.div`
 
 export const SearchBarContainer2 = styled.div`
   :hover {
-    -webkit-box-shadow: 10px 10px 5px -5px rgba(221, 219, 219, 1);
-    -moz-box-shadow: 10px 10px 5px -5px rgba(221, 219, 219, 1);
-    box-shadow: 10px 10px 5px -5px rgba(221, 219, 219, 1);
+    /* -webkit-box-shadow: 10px 10px 5px -5px rgba(221, 219, 219, 1);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(221, 219, 219, 1); */
+    /* box-shadow: 10px 10px 5px -5px rgba(221, 219, 219, 1); */
     /* display: block;
     background-size: cover; */
     width: 100%;
@@ -98,18 +98,20 @@ export const SearchBarContainer2 = styled.div`
   display: block;
   outline: none;
   width: 800px;
-  margin-top:-25%;
+  margin-top:-50%;
+  margin-bottom:42.5%;
   height: 70px;
   padding: 10px;
+  padding-left:30%;
   color: #333;
   -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
   box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
 }
-::-webkit-input-placeholder { color: #666;} 
+/* ::-webkit-input-placeholder { color: #666;} 
 :-moz-placeholder { color: #666; }
 ::-moz-placeholder { color: #666; }
 :-ms-input-placeholder { color: #666; }
-  
+   */
 /* 
   form {
   width: 100%;
@@ -121,7 +123,7 @@ font-size:2rem;
 transform:translate(-50%,-15%);
 position: absolute;
 margin-left:750px;
-top: 25px;
+top: 23px;
 ;
 `
 export const ImageSearchResult = styled.img`

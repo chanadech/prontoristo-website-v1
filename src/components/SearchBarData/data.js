@@ -61,7 +61,9 @@ export const productDataTwo = [
       alt: "Searchbar",
       name: "Supreme Pizza",
       desc: "Mariana zaza haha",
-      price: "$19.99",
-      button: "Siam",
+      price: "$20.99",
+      button: "Add to Cart",
+      location: "Mega Bangna",
+      cuisine: "International"
     },
   ];

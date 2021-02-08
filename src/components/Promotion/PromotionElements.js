@@ -53,7 +53,9 @@ export const FeatureContainer2 = styled.div`
   justify-content: center;
   align-items: center;
   color: #fff;
+  border-color:transparent;
   text-align: center;
+  
 
   margin-bottom:3rem;
   float:left
@@ -104,6 +106,7 @@ export const ImagePromotion = styled.img`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-color:transparent;
   
   
 `

@@ -16,10 +16,11 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarMenu>
         <div>Menu</div>
-        <SidebarLink to="/">Register</SidebarLink>
-        <SidebarLink to="/">Login</SidebarLink>
-        <SidebarLink to="/result">Search Restaurant ver API</SidebarLink>
-        <SidebarLink to="/test">Search Restaurant version mock + layout</SidebarLink>
+        {/* <SidebarLink to="/">Register</SidebarLink>
+        <SidebarLink to="/">Login</SidebarLink> */}
+
+        <SidebarLink to="/result">Search Restaurant API</SidebarLink>
+        <SidebarLink to="/test">Search Restaurant</SidebarLink>
 
       </SidebarMenu>
       <SideBtnWrap>
