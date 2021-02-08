@@ -1,4 +1,5 @@
-import product1 from "../../images/svg-1.svg";
+import product1 from "../../images/svg-4.svg";
+import product2 from "../../images/svg-5.svg";
 
 export const homeObjOne = {
   lightBg: true,
@@ -6,10 +7,24 @@ export const homeObjOne = {
   lightTopLine: false,
   lightTextDesc: false,
   topLine: 'Contact Us',
+  headline: 'prontoristo@gmail.com',
+  description:
+    'Working hours: 08.00 - 16.00(GMT+7) Monday - Friday ' ,
+  buttonLabel: 'E-Mail to us',
+  imgStart: '',
+  img: product2,
+  alt: 'contact'
+};
+export const homeObjTwo = {
+  lightBg: true,
+  lightText: false,
+  lightTopLine: false,
+  lightTextDesc: false,
+  topLine: 'Tel',
   headline: '+66-91-741-3856',
   description:
-    'Working hours: 08.00 - 16.00(GMT+7) Monday - Friday Or via www.MekhLnwZa555@gmail.com' ,
-  buttonLabel: 'E-Mail to Us',
+    'In the case which have emergency call please contact this number ' ,
+  buttonLabel: 'Tel',
   imgStart: '',
   img: product1,
   alt: 'contact'
