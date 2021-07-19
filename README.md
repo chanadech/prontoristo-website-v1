@@ -1,3 +1,8 @@
+Pronto Risto is a web application for booking the restaurant.
+
+We decide to use React as a front-end framework and Django as a backend.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
